@@ -34,9 +34,9 @@
     <div>
     <h1>NBA: Le partite di oggi sono:</h1>
         <?php for ($i=0; $i < count($teamNba); $i++) { 
-            echo $teamNba[$i]["homeTeam"] . " " . "|"  . " " . $teamNba[$i]["homePoint"];
+            echo $teamNba[$i]["homeTeam"] . " " . "|"  . " " . rand(80, 130);
             echo "<br>";
-            echo $teamNba[$i]["awayTeam"] . " " . "|"  . " " . $teamNba[$i]["awayPoint"];
+            echo $teamNba[$i]["awayTeam"] . " " . "|"  . " " . rand(80, 130);
             echo "<br>";
             echo "<br>";
         } ?>
